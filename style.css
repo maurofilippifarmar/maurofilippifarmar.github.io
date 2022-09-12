@@ -44,26 +44,24 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(254, 140, 0);
   outline: 1px solid black;
 }
-
-h1,
-h2,
-h3,
-h4,
-p,
-a {
+body h1,
+body h2,
+body h3,
+body h4,
+body p,
+body a {
   font-weight: 400;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
-
-h1 {
+body h1 {
   color: rgb(254, 140, 0);
+  font-size: 4rem;
 }
-
-h2 {
+body h2 {
   font-size: 2rem;
   position: relative;
 }
-h2::after {
+body h2::after {
   content: "";
   width: 50%;
   height: 3px;
@@ -72,6 +70,9 @@ h2::after {
   top: 50%;
   margin-left: 1rem;
   z-index: -1;
+}
+body p {
+  font-size: 1.5rem;
 }
 
 span {
@@ -178,7 +179,6 @@ header nav ul .resume-btn:hover {
   margin: 0;
 }
 .section_home > :nth-child(2) {
-  font-size: 4rem;
   margin: 0;
 }
 .section_home > :nth-child(3) {
@@ -202,9 +202,6 @@ header nav ul .resume-btn:hover {
   z-index: -1;
   opacity: 0.5;
   left: 50%;
-}
-.section_about p {
-  font-size: 1.5rem;
 }
 .section_about .about-info,
 .section_about .about-img {
@@ -303,8 +300,10 @@ header nav ul .resume-btn:hover {
 }
 .section_experience .work-about > ul {
   margin-top: 4rem;
+  font-size: 1.5rem;
 }
 .section_experience ul li ul li {
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }

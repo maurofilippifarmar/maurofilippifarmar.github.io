@@ -62,32 +62,39 @@ body {
         background-color: $accent-color;
         outline: 1px solid $text-color-alternate;
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-a {
-    font-weight: 400;
-    text-shadow: $text-shadow-dark;
-}
-h1 {
-    color: $accent-color;
-}
-h2 {
-    font-size: 2rem;
-    position: relative;
-    &::after {
-        content: '';
-        width: 50%;
-        height: 3px;
-        background: $accent-color;
-        position: absolute;
-        top: 50%;
-        margin-left: 1rem;
-        z-index: -1;
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a {
+        font-weight: 400;
+        text-shadow: $text-shadow-dark;
+    }
+    h1 {
+        color: $accent-color;
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+        position: relative;
+        &::after {
+            content: '';
+            width: 50%;
+            height: 3px;
+            background: $accent-color;
+            position: absolute;
+            top: 50%;
+            margin-left: 1rem;
+            z-index: -1;
+        }
+    }
+    h3 {
+    }
+    h4 {
+    }
+    p {
+        font-size: 1.5rem;
     }
 }
 
@@ -197,7 +204,6 @@ header {
         margin: 0;
     }
     > :nth-child(2) {
-        font-size: 4rem;
         margin: 0;
     }
     > :nth-child(3) {
@@ -221,9 +227,6 @@ header {
         z-index: -1;
         opacity: 0.5;
         left: 50%;
-    }
-    p {
-        font-size: 1.5rem;
     }
     .about-info,
     .about-img {
@@ -326,8 +329,10 @@ header {
     }
     .work-about > ul {
         margin-top: 4rem;
+        font-size: 1.5rem;
     }
     ul li ul li {
+        font-size: 1.5rem;
         margin-bottom: 2rem;
         text-shadow: $text-shadow-dark;
     }
