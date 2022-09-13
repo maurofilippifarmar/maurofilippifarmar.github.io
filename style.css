@@ -549,8 +549,8 @@ header nav ul .resume-btn:hover {
   }
 }
 @media screen and (min-width: 1024px) {
-  body {
-    font-size: 200%;
+  body p {
+    font-size: 2rem;
   }
   header nav {
     height: 5rem;
@@ -565,6 +565,31 @@ header nav ul .resume-btn:hover {
     margin: 0 auto;
     width: 70%;
     min-height: 100vh;
+  }
+  .section_home {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-size: 1.5rem;
+  }
+  .section_home .gear-bg {
+    right: 50%;
+  }
+  .section_home > :nth-child(1) {
+    margin: 0;
+  }
+  .section_home > :nth-child(2) {
+    margin: 0;
+    font-size: 5rem;
+  }
+  .section_home > :nth-child(3) {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .section_home > :nth-child(4) {
+    margin: 1rem 0;
   }
   .about-img {
     order: 2;
@@ -609,6 +634,15 @@ header nav ul .resume-btn:hover {
   }
   .section_experience .gear-bg {
     right: 75%;
+  }
+  .section_experience .work-about > ul {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  .section_experience ul li ul li {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
   .section_projects .gear-bg {
     left: 75%;

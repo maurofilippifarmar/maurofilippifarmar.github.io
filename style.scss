@@ -617,7 +617,9 @@ header {
 }
 @media screen and (min-width: 1024px) {
     body {
-        font-size: 200%;
+        p {
+            font-size: 2rem;
+        }
     }
     header {
         nav {
@@ -635,6 +637,31 @@ header {
         margin: 0 auto;
         width: 70%;
         min-height: 100vh;
+    }
+    .section_home {
+        padding-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        font-size: 1.5rem;
+        .gear-bg {
+            right: 50%;
+        }
+        > :nth-child(1) {
+            margin: 0;
+        }
+        > :nth-child(2) {
+            margin: 0;
+            font-size: 5rem;
+        }
+        > :nth-child(3) {
+            font-size: 3rem;
+            margin: 0;
+        }
+        > :nth-child(4) {
+            margin: 1rem 0;
+        }
     }
 
     .about-img {
@@ -688,7 +715,19 @@ header {
         .gear-bg {
             right: 75%;
         }
+        .work-about > ul {
+            margin-top: 4rem;
+            font-size: 2rem;
+        }
+        ul li ul li {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-shadow: $text-shadow-dark;
+        }
     }
+   
+        
+        
     .section_projects {
         .gear-bg {
             left: 75%;
