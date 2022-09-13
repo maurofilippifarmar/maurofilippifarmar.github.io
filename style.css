@@ -49,9 +49,36 @@ body h2,
 body h3,
 body h4,
 body p,
-body a {
+body a,
+body ul,
+body li,
+body img {
   font-weight: 400;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+body h1::-moz-selection, body h2::-moz-selection, body h3::-moz-selection, body h4::-moz-selection, body p::-moz-selection, body a::-moz-selection, body ul::-moz-selection, body li::-moz-selection, body img::-moz-selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
+}
+body h1::selection,
+body h2::selection,
+body h3::selection,
+body h4::selection,
+body p::selection,
+body a::selection,
+body ul::selection,
+body li::selection,
+body img::selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
+}
+body .item::-moz-selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
+}
+body .item::selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
 }
 body h1 {
   color: rgb(254, 140, 0);
@@ -77,6 +104,14 @@ body p {
 
 span {
   color: rgb(254, 140, 0);
+}
+span::-moz-selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
+}
+span::selection {
+  background: rgb(254, 140, 0);
+  color: aliceblue;
 }
 
 a,
