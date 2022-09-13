@@ -23,8 +23,9 @@ body {
   padding: 0;
 }
 body main {
-  width: 98vw;
-  overflow: hidden;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body main section {
   margin: 0 auto;
