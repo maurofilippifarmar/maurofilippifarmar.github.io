@@ -221,7 +221,7 @@ header nav ul .resume-btn:hover {
   margin: 0;
 }
 .section_home > :nth-child(4) {
-  margin: 1rem 0;
+  margin: 0;
 }
 
 .section_about {
@@ -362,6 +362,10 @@ header nav ul .resume-btn:hover {
   grid-template-columns: minmax(200px, 350px);
   grid-auto-rows: 200px;
   gap: 3rem;
+}
+.project-display .card_img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .project-display .project {
   background-size: cover;
@@ -514,6 +518,10 @@ header nav ul .resume-btn:hover {
   body {
     font-size: 150%;
   }
+  body main section {
+    margin: 0 auto;
+    width: 80%;
+  }
   header nav {
     height: 4.5rem;
   }
@@ -524,10 +532,6 @@ header nav ul .resume-btn:hover {
     margin: 0.5rem;
     text-decoration: none;
     font-size: 1.5rem;
-  }
-  main section {
-    margin: 0 auto;
-    width: 80%;
   }
   .about-img i {
     position: absolute;
@@ -588,6 +592,11 @@ header nav ul .resume-btn:hover {
   body p {
     font-size: 2rem;
   }
+  body main section {
+    margin: 0 auto;
+    width: 70%;
+    min-height: 100vh;
+  }
   header nav {
     height: 5rem;
   }
@@ -596,11 +605,6 @@ header nav ul .resume-btn:hover {
   }
   header nav ul a {
     font-size: 2rem;
-  }
-  main section {
-    margin: 0 auto;
-    width: 70%;
-    min-height: 100vh;
   }
   .section_home {
     padding-top: 10rem;
@@ -685,9 +689,6 @@ header nav ul .resume-btn:hover {
   }
 }
 @media screen and (min-width: 1600px) {
-  body {
-    font-size: 250%;
-  }
   header nav {
     height: 5rem;
   }
@@ -697,7 +698,7 @@ header nav ul .resume-btn:hover {
   header nav ul a {
     font-size: 2rem;
   }
-  main section {
+  body main section {
     margin: 0 auto;
     width: 50%;
     min-height: 100vh;
