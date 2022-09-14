@@ -186,7 +186,7 @@ header {
                 i:hover {
                     color: $accent-color;
                     box-shadow: $text-shadow-dark;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
             }
             .resume-btn {
@@ -400,9 +400,10 @@ header {
             > h4 {
                 font-size: 2rem;
                 margin: 0;
-                font-family: wasteland;
+                font-family: old-english;
                 font-weight: normal;
                 text-shadow: none;
+                font-size: 4rem;
             }
             > p {
                 font-size: 2rem;

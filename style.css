@@ -184,7 +184,7 @@ header nav ul a:hover,
 header nav ul a i:hover {
   color: rgb(254, 140, 0);
   box-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 header nav ul .resume-btn {
   border: 1px solid black;
@@ -395,9 +395,10 @@ header nav ul .resume-btn:hover {
 .project-display .project div > h4 {
   font-size: 2rem;
   margin: 0;
-  font-family: wasteland;
+  font-family: old-english;
   font-weight: normal;
   text-shadow: none;
+  font-size: 4rem;
 }
 .project-display .project div > p {
   font-size: 2rem;
